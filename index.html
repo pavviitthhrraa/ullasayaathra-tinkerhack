@@ -57,43 +57,15 @@
         </div>
     </div>
 
-    <div id="vibe-check-screen" class="screen hidden">
-        <div class="vibe-container">
-            <button class="back-link" onclick="goBack()">← Back</button>
-            <p class="step-indicator">2 / 8</p>
-            
-            <div class="vibe-header">
-                <span class="globe-icon">🌍</span>
-                <h2 class="vibe-title">Mountains or Seas?</h2>
-                <p class="vibe-subtitle">The eternal question.</p>
+    <div id="onboarding-screen" class="screen hidden">
+    <div class="vibe-container">
+        <button class="back-link" onclick="handleStepBack()">← Back</button>
+        <p class="step-indicator" id="step-number">1 / 9</p>
+        
+        <div id="step-content">
             </div>
-
-            <div class="options-stack">
-                <div class="vibe-option" onclick="selectVibe('mountains')">
-                    <div class="option-content">
-                        <span class="option-emoji">🏔️</span>
-                        <div class="option-text">
-                            <h3>Mist-covered Mountains</h3>
-                            <p>Fog, chai, and silence</p>
-                        </div>
-                    </div>
-                    <div class="radio-circle"></div>
-                </div>
-
-                <div class="vibe-option" onclick="selectVibe('seas')">
-                    <div class="option-content">
-                        <span class="option-emoji">🌊</span>
-                        <div class="option-text">
-                            <h3>Salt-water Seas</h3>
-                            <p>Sand, surf, and sunsets</p>
-                        </div>
-                    </div>
-                    <div class="radio-circle"></div>
-                </div>
-            </div>
-        </div>
     </div>
-
+</div>
     <script src="script.js"></script>
 </body>
 </html>
