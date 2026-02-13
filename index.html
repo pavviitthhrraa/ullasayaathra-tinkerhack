@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ullasayathra | Serendipity Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hero-container">
+        <div class="hero-content">
+            <p class="subtitle">THE SERENDIPITY TRAVEL ENGINE</p>
+            <h1 class="main-title">Ullasa<span>yathra</span></h1>
+            <p class="description">
+                Let serendipity guide your next adventure. <br>
+                Discover destinations that match your soul, not just your schedule.
+            </p>
+            <button class="start-btn" onclick="openAuth()">Start Your Journey ✦</button>
+            <p class="footer-tag">No plans. No stress. Just vibes.</p>
+        </div>
+    </div>
+
+    <div id="auth-modal" class="modal hidden">
+        <div class="modal-card">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            
+            <div id="login-section">
+                <h2 class="auth-title">Welcome Back</h2>
+                <p class="auth-subtitle">Continue your serendipitous journey</p>
+                <div class="input-group">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="auth-btn" onclick="handleAuth()">Login</button>
+                <p class="toggle-text">New here? <span onclick="toggleAuth(true)">Sign Up</span></p>
+            </div>
+
+            <div id="signup-section" class="hidden">
+                <h2 class="auth-title">Create Account</h2>
+                <p class="auth-subtitle">Start planning with friends nearby</p>
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Create Password">
+                </div>
+                <button class="auth-btn" onclick="handleAuth()">Sign Up</button>
+                <p class="toggle-text">Already a member? <span onclick="toggleAuth(false)">Login</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
