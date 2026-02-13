@@ -1,0 +1,122 @@
+{
+  "munnar": {
+    "title": "Munnar",
+    "meta": "Mist-covered Mountains • 2 Days",
+    "summary": "A serendipitous escape into tea-cladded hills and cool mountain air.",
+    "places": [
+      { "name": "Tea Museum", "desc": "Retro vibes and the history of tea processing." },
+      { "name": "Top Station", "desc": "Highest point for vintage film-style views." },
+      { "name": "Eravikulam National Park", "desc": "Home to the rare Nilgiri Tahr." },
+      { "name": "Mattupetty Dam", "desc": "Perfect for a peaceful afternoon boat ride." },
+      { "name": "Attukad Falls", "desc": "A hidden waterfall tucked in the jungle." }
+    ]
+  },
+  "varkala": {
+    "title": "Varkala",
+    "meta": "Salt-water Seas • 1 Day",
+    "summary": "Where the red cliffs meet the Arabian Sea for a perfect sunset vibe.",
+    "places": [
+      { "name": "Varkala Cliff", "desc": "Cafes, culture, and stunning sunset views." },
+      { "name": "Papanasam Beach", "desc": "Holy waters and soft golden sand." },
+      { "name": "Janardana Swami Temple", "desc": "A 2,000-year-old architectural marvel." },
+      { "name": "Kappil Lake", "desc": "A bridge between the backwaters and the sea." },
+      { "name": "Anjengo Fort", "desc": "Retro history in a quiet seaside setting." }
+    ]
+  },
+  "wayanad": {
+    "title": "Wayanad",
+    "meta": "Spontaneous Explorer • 3 Days",
+    "summary": "Deep spice plantations and prehistoric caves waiting to be discovered.",
+    "places": [
+      { "name": "Edakkal Caves", "desc": "Prehistoric rock etchings in a mountain crevice." },
+      { "name": "Banasura Sagar Dam", "desc": "The largest earth dam in India." },
+      { "name": "Soochipara Falls", "desc": "A three-tiered waterfall surrounded by forests." },
+      { "name": "Pookode Lake", "desc": "A natural freshwater lake shaped like India's map." },
+      { "name": "Tholpetty Wildlife Sanctuary", "desc": "A raw safari experience through the wilderness." }
+    ]
+  },
+  "kochi": {
+    "title": "Kochi",
+    "meta": "Instagrammable • 1 Day",
+    "summary": "A blend of colonial history, art cafes, and giant fishing nets.",
+    "places": [
+      { "name": "Fort Kochi Beach", "desc": "Iconic Chinese fishing nets at sunset." },
+      { "name": "Mattancherry Palace", "desc": "Traditional Kerala murals and retro architecture." },
+      { "name": "Jew Town", "desc": "Antique shops and narrow, aesthetic alleys." },
+      { "name": "Princess Street", "desc": "European-style streets perfect for photography." },
+      { "name": "Kathakali Centre", "desc": "Traditional dance performances in a retro setting." }
+    ]
+  },
+  "alleppey": {
+    "title": "Alleppey",
+    "meta": "Zen Pace • 2 Days",
+    "summary": "The 'Venice of the East', famous for its tranquil backwaters.",
+    "places": [
+      { "name": "Houseboat Cruise", "desc": "Floating luxury through the palm-fringed canals." },
+      { "name": "Marari Beach", "desc": "Quiet, white sand beach for total relaxation." },
+      { "name": "Alleppey Lighthouse", "desc": "Retro 360-degree views of the coastline." },
+      { "name": "Punnamada Lake", "desc": "Host of the legendary Nehru Trophy boat race." },
+      { "name": "Pathiramanal Island", "desc": "A birdwatcher's paradise accessible by boat." }
+    ]
+  },
+  "thekkady": {
+    "title": "Thekkady",
+    "meta": "Thrill Seeker • 2 Days",
+    "summary": "Home to the Periyar Tiger Reserve and spice-scented air.",
+    "places": [
+      { "name": "Periyar Lake Boat Ride", "desc": "Spotting wildlife from the safety of the water." },
+      { "name": "Elephant Junction", "desc": "An interactive encounter with the gentle giants." },
+      { "name": "Spice Walk", "desc": "Deep immersion into cardamom and pepper farms." },
+      { "name": "Kadathanadan Kalari Centre", "desc": "Traditional Kalaripayattu martial arts show." },
+      { "name": "Pandikuzhi", "desc": "Scenic trekking and photography spot." }
+    ]
+  },
+  "kumarakom": {
+    "title": "Kumarakom",
+    "meta": "Balanced Pace • 2 Days",
+    "summary": "A cluster of islands on Vembanad Lake, rich in biodiversity.",
+    "places": [
+      { "name": "Bird Sanctuary", "desc": "Spotting migratory birds in a lush forest." },
+      { "name": "Vembanad Lake", "desc": "The longest lake in India, perfect for sunsets." },
+      { "name": "Aruvikkuzhi Waterfall", "desc": "A hidden gem surrounded by rubber plantations." },
+      { "name": "Bay Island Driftwood Museum", "desc": "Unique art made from ancient wood pieces." },
+      { "name": "Vaikom Temple", "desc": "Historic temple with a peaceful retro atmosphere." }
+    ]
+  },
+  "kovalam": {
+    "title": "Kovalam",
+    "meta": "Luxury • 1 Day",
+    "summary": "Famous for its three crescent-shaped beaches and lighthouse.",
+    "places": [
+      { "name": "Lighthouse Beach", "desc": "A striped lighthouse overlooking golden sands." },
+      { "name": "Hawah Beach", "desc": "A bustling spot for local culture and food." },
+      { "name": "Samudra Beach", "desc": "A secluded and quiet luxury escape." },
+      { "name": "Vellayani Lake", "desc": "A rare freshwater lake near the coast." },
+      { "name": "Halcyon Castle", "desc": "A royal heritage building with vintage charm." }
+    ]
+  },
+  "vagamon": {
+    "title": "Vagamon",
+    "meta": "Solo • 2 Days",
+    "summary": "Rolling meadows, pine forests, and cool misty weather.",
+    "places": [
+      { "name": "Pine Forest", "desc": "Tall, dark trees perfect for a '90s film' shoot." },
+      { "name": "Vagamon Meadows", "desc": "Endless green hills and fresh air." },
+      { "name": "Kurisumala", "desc": "A peaceful pilgrimage hill and dairy farm." },
+      { "name": "Marmala Waterfall", "desc": "The 'Enchantress of the Jungle' hidden deep." },
+      { "name": "Thangal Para", "desc": "Unique rock formations and spiritual history." }
+    ]
+  },
+  "trivandrum": {
+    "title": "Trivandrum",
+    "meta": "Safe & Sound • 1 Day",
+    "summary": "The capital city, blending royal history with modern life.",
+    "places": [
+      { "name": "Padmanabhaswamy Temple", "desc": "The richest temple in the world, grand architecture." },
+      { "name": "Napier Museum", "desc": "Indo-Saracenic architecture with retro artifacts." },
+      { "name": "Kanakakkunnu Palace", "desc": "Royal grounds for evening walks and cultural fests." },
+      { "name": "Shangumugham Beach", "desc": "Home to the giant 'Jalakanyaka' mermaid statue." },
+      { "name": "Veli Tourist Village", "desc": "Where the lake meets the sea, with sculpture parks." }
+    ]
+  }
+}
