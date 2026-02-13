@@ -22,31 +22,32 @@ function toggleAuth(isSignup) {
     }
 }
 
-// Handle simulated authentication
+// Corrected single handleAuth function
 function handleAuth() {
     alert("Welcome to Ullasayathra!");
     closeModal();
-}
-
-function handleAuth() {
-    closeModal();
-    // Hide landing, show vibe check
-    document.getElementById('hero-screen').classList.add('hidden');
-    document.getElementById('vibe-check-screen').classList.remove('hidden');
+    
+    // Hide the landing page
+    const hero = document.getElementById('hero-screen');
+    if (hero) hero.classList.add('hidden');
+    
+    // Show the vibe check screen
+    const vibeScreen = document.getElementById('vibe-check-screen');
+    if (vibeScreen) vibeScreen.classList.remove('hidden');
 }
 
 function selectVibe(vibe) {
-    // Add active class to the clicked option
     const options = document.querySelectorAll('.vibe-option');
     options.forEach(opt => opt.classList.remove('active'));
+    
+    // Highlight the selection
     event.currentTarget.classList.add('active');
 
     console.log("Selected Vibe:", vibe);
     
-    // Auto-advance after a short delay
     setTimeout(() => {
         alert(`Setting the mood for ${vibe}... Finding Jimin and other friends nearby.`);
-    }, 6000);
+    }, 1500); 
 }
 
 function goBack() {
