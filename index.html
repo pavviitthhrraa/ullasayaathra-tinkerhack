@@ -21,13 +21,29 @@
     <div id="auth-modal" class="modal hidden">
         <div class="modal-card">
             <span class="close-btn" onclick="closeModal()">×</span>
-            <h2 class="auth-title">Welcome Back</h2>
-            <p class="auth-subtitle">Continue your serendipitous journey</p>
-            <div class="input-group">
-                <input type="email" placeholder="Email Address">
-                <input type="password" placeholder="Password">
+            
+            <div id="login-section">
+                <h2 class="auth-title">Welcome Back</h2>
+                <p class="auth-subtitle">Continue your serendipitous journey</p>
+                <div class="input-group">
+                    <input type="email" placeholder="Email Address">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="auth-btn" onclick="handleAuth()">Login</button>
+                <p class="toggle-text">New here? <span onclick="toggleAuth(true)">Sign Up</span></p>
             </div>
-            <button class="auth-btn" onclick="handleAuth()">Login</button>
+
+            <div id="signup-section" class="hidden">
+                <h2 class="auth-title">Create Account</h2>
+                <p class="auth-subtitle">Start your adventure with us</p>
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                    <input type="password" placeholder="Create Password">
+                </div>
+                <button class="auth-btn" onclick="handleAuth()">Sign Up</button>
+                <p class="toggle-text">Already a member? <span onclick="toggleAuth(false)">Login</span></p>
+            </div>
         </div>
     </div>
 
@@ -46,8 +62,17 @@
                 <div id="itinerary-header"></div>
                 <div id="itinerary-content"></div>
             </div>
+            
             <div class="map-panel">
-                <img id="city-map" src="" alt="Retro Map">
+                <iframe 
+                    id="osm-map" 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    src="">
+                </iframe>
+                <div class="map-overlay-tag">🗺️ Serendipity Map Active</div>
             </div>
         </div>
     </div>
