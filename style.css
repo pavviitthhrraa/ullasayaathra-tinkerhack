@@ -82,3 +82,55 @@ body, html { height: 100%; overflow: hidden; }
 .toggle-text span { color: #e17055; cursor: pointer; font-weight: 600; }
 .hidden { display: none !important; }
 .footer-tag { color: white; margin-top: 30px; font-style: italic; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); }
+
+/* Vibe Check Aesthetic */
+.vibe-container {
+    background-color: #fdfaf5; /* Sand Beige */
+    width: 100%;
+    height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.back-link { position: absolute; left: 40px; top: 40px; background: none; border: none; color: #888; cursor: pointer; }
+.step-indicator { position: absolute; right: 40px; top: 40px; color: #888; font-size: 0.8rem; }
+
+.vibe-header { margin-top: 60px; margin-bottom: 40px; }
+.globe-icon { font-size: 2.5rem; display: block; margin-bottom: 15px; }
+.vibe-title { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #1a2a6c; }
+.vibe-subtitle { color: #7f8c8d; margin-top: 10px; }
+
+.options-stack { width: 100%; max-width: 500px; display: flex; flex-direction: column; gap: 20px; }
+
+.vibe-option {
+    background: white;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.vibe-option:hover { border-color: #f3a683; transform: translateY(-2px); }
+
+.option-content { display: flex; align-items: center; gap: 20px; text-align: left; }
+.option-emoji { font-size: 1.5rem; }
+.option-text h3 { font-size: 1.1rem; color: #e17055; margin-bottom: 2px; }
+.option-text p { font-size: 0.85rem; color: #95a5a6; }
+
+.radio-circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+/* Active State */
+.vibe-option.active { border-color: #f3a683; background: #fff9f6; }
+.vibe-option.active .radio-circle { border-color: #f3a683; background: #f3a683; box-shadow: inset 0 0 0 4px white; }
