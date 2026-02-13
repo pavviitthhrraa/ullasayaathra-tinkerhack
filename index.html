@@ -13,44 +13,28 @@
         <div class="hero-content">
             <p class="subtitle">THE SERENDIPITY TRAVEL ENGINE</p>
             <h1 class="main-title">Ullasa<span>yathra</span></h1>
-            <p class="description">
-                Let serendipity guide your next adventure. <br>
-                Discover destinations that match your soul, not just your schedule.
-            </p>
+            <p class="description">Discover destinations that match your soul.</p>
             <button class="start-btn" onclick="openAuth()">Start Your Journey ✦</button>
-            <p class="footer-tag">No plans. No stress. Just vibes.</p>
         </div>
     </div>
 
     <div id="auth-modal" class="modal hidden">
         <div class="modal-card">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <div id="login-section">
-                <h2 class="auth-title">Welcome Back</h2>
-                <div class="input-group">
-                    <input type="email" placeholder="Email Address">
-                    <input type="password" placeholder="Password">
-                </div>
-                <button class="auth-btn" onclick="handleAuth()">Login</button>
-                <p class="toggle-text">New here? <span onclick="toggleAuth(true)">Sign Up</span></p>
+            <span class="close-btn" onclick="closeModal()">×</span>
+            <h2 class="auth-title">Welcome Back</h2>
+            <p class="auth-subtitle">Continue your serendipitous journey</p>
+            <div class="input-group">
+                <input type="email" placeholder="Email Address">
+                <input type="password" placeholder="Password">
             </div>
-            <div id="signup-section" class="hidden">
-                <h2 class="auth-title">Create Account</h2>
-                <div class="input-group">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="password" placeholder="Create Password">
-                </div>
-                <button class="auth-btn" onclick="handleAuth()">Sign Up</button>
-                <p class="toggle-text">Already a member? <span onclick="toggleAuth(false)">Login</span></p>
-            </div>
+            <button class="auth-btn" onclick="handleAuth()">Login</button>
         </div>
     </div>
 
     <div id="onboarding-screen" class="screen hidden">
         <div class="vibe-container">
             <button class="back-link" onclick="handleStepBack()">← Back</button>
-            <p class="step-indicator" id="step-number">1 / 8</p>
+            <p id="step-number">1 / 8</p>
             <div id="step-content"></div> 
         </div>
     </div>
@@ -63,10 +47,7 @@
                 <div id="itinerary-content"></div>
             </div>
             <div class="map-panel">
-                <div id="map-placeholder">
-                    <img id="city-map" src="https://api.mapbox.com/styles/v1/mapbox/light-v10/static/76.5,10.5,8/800x800?access_token=pk.eyJ1Ijoic2FtcGxlIiwiYSI6ImNraHEx..." alt="Retro Map">
-                    <div class="map-overlay">🗺️ Serendipity Map Active</div>
-                </div>
+                <img id="city-map" src="" alt="Retro Map">
             </div>
         </div>
     </div>
